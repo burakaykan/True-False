@@ -11,7 +11,7 @@ public class Reklam : MonoBehaviour
         //RequestBanner();
 
         BannerView reklamObjesi = new BannerView(
-                "ca-app-pub-0595402013240986/9470988812", AdSize.Banner, AdPosition.Top);
+                "", AdSize.Banner, AdPosition.Top);
         AdRequest reklamiAl = new AdRequest.Builder().Build();
         reklamObjesi.LoadAd(reklamiAl);
 
@@ -20,7 +20,7 @@ public class Reklam : MonoBehaviour
     //{
 
     //    BannerView reklamObjesi = new BannerView(
-    //            "ca-app-pub-0595402013240986/9470988812", AdSize.Banner, AdPosition.Top);
+    //            "", AdSize.Banner, AdPosition.Top);
     //    AdRequest reklamiAl = new AdRequest.Builder().Build();
     //    reklamObjesi.LoadAd(reklamiAl);
     //    reklamObjesi.Show();
@@ -30,7 +30,7 @@ public class Reklam : MonoBehaviour
 //#if UNITY_EDITOR
 //        string adUnitId = "unused";
 //#elif UNITY_ANDROID
-//        string adUnitId = "ca-app-pub-0595402013240986/9470988812";
+//        string adUnitId = "";
 //#else
 //        string adUnitId = "unexpected_platform";
 //#endif
